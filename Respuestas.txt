@@ -1,0 +1,8 @@
+f. No se puede ver el archivo "tp2_1_2.c", porque fue creada y guardada
+en otra rama (Opcion_2)
+
+¿Que diferencias notas? ahora se visualiza mejor la rama Opcion_2, y que
+en la rama main figura que se agrego el archivo Respuestas.txt
+
+Despues de combinar ambos repositorios, ya se visualiza el archivo tp2_1_2.c
+que fue creado en la rama Opcion_2 en la rama main
