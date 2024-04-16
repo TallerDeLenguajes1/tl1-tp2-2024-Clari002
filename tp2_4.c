@@ -21,7 +21,7 @@ int main()
 {
 
     compu PC[TAMA];
-    int i;
+    int i, j;
     char tipos[6][10]={"Intel", "AMD", "Celeron","Athlon", "Core", "Pentium"};
     srand(time(NULL));
 
@@ -39,6 +39,10 @@ int main()
     mostrarPcMasVieja(PC, TAMA);
     mostrarPcMasVeloz(PC, TAMA);
 
+    for (j = 0; j < TAMA; j++)
+    {
+        free(PC[j].tipo_cpu);
+    }
 
 
     return 0;
